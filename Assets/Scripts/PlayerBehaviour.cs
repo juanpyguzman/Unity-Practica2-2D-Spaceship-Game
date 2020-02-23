@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PlayerBehaviour : MonoBehaviour
 {
-    public float TranslateSpeed = 1f;
-    public float RotateSpeed = 1f;
- 
+    public float acceleration = 20f;
+    public float turnAcceleration = 2f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,24 +14,25 @@ public class PlayerBehaviour : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            transform.Translate(Vector3.forward * Time.deltaTime * TranslateSpeed);
+            GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward * acceleration, ForceMode.Acceleration);
         }
         else if (Input.GetKey(KeyCode.DownArrow))
         {
-            transform.Translate(-Vector3.forward * Time.deltaTime * TranslateSpeed);
+            GetComponent<Rigidbody>().AddRelativeForce(-Vector3.forward * acceleration, ForceMode.Acceleration);
         }
 
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            transform.Rotate(Vector3.up * Time.deltaTime * RotateSpeed);
+            GetComponent<Rigidbody>().AddTorque(transform.up * turnAcceleration, ForceMode.Acceleration);
         }
         else if (Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.Rotate(-Vector3.up * Time.deltaTime * RotateSpeed);
+            GetComponent<Rigidbody>().AddTorque(-transform.up * turnAcceleration, ForceMode.Acceleration);
+
         }
 
     }

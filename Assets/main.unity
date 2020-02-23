@@ -525,8 +525,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b172b8a18c89e724a92127b4fe6c5aa6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TranslateSpeed: 10
-  RotateSpeed: 50
+  acceleration: 5
+  turnAcceleration: 2
 --- !u!1001 &438264802
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2591,7 +2591,7 @@ PrefabInstance:
     - target: {fileID: 325069465634700457, guid: 9e15ab8079677a047ba6c4a953555c7b,
         type: 3}
       propertyPath: m_Constraints
-      value: 86
+      value: 84
       objectReference: {fileID: 0}
     - target: {fileID: 325069465634700457, guid: 9e15ab8079677a047ba6c4a953555c7b,
         type: 3}
@@ -2601,7 +2601,12 @@ PrefabInstance:
     - target: {fileID: 325069465634700457, guid: 9e15ab8079677a047ba6c4a953555c7b,
         type: 3}
       propertyPath: m_AngularDrag
-      value: 0.1
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 325069465634700457, guid: 9e15ab8079677a047ba6c4a953555c7b,
+        type: 3}
+      propertyPath: m_Mass
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1139907664140743280, guid: 9e15ab8079677a047ba6c4a953555c7b,
         type: 3}

@@ -5,8 +5,8 @@ using UnityEngine;
 public class CameraBehaviour : MonoBehaviour
 {
     public GameObject target = null;
-    public float MinHeight = 4f;
-    public float HeightFactor = 1.0f;
+    public float MinHeight = 40f;
+    public float HeightFactor = 10.0f;
 
     private float Height;
     private Rigidbody shipRigidBody;
@@ -27,11 +27,14 @@ public class CameraBehaviour : MonoBehaviour
     {
         if (target != null)
         {
+            Height = MinHeight * (1 + shipRigidBody.velocity.magnitude / HeightFactor);
+
             transform.position = new Vector3(target.transform.position.x,
                                              target.transform.position.y + Height,
                                              target.transform.position.z);
 
-            Height = MinHeight * (1 + shipRigidBody.velocity.magnitude / HeightFactor);
+            Debug.Log(transform.position.y);
+
         }
     }
 }
