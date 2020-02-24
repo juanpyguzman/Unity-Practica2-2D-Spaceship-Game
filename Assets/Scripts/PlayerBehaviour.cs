@@ -19,7 +19,7 @@ public class PlayerBehaviour : MonoBehaviour
         shootedBullet.transform.position = transform.position + transform.forward * 1f;
         shootedBullet.GetComponent<BulletBehaviour>().setDirection(transform.forward);
         shootedBullet.tag = "Player";
-        Destroy(shootedBullet, 5.0f);
+        Destroy(shootedBullet, 1.0f);
     }
 
     //Bases encontradas
@@ -38,13 +38,13 @@ public class PlayerBehaviour : MonoBehaviour
         lifes--;
         Debug.Log("Player: Daño recibido");
         Debug.Log("Te quedan " + lifes + " vidas");
-        GetComponent<Rigidbody>().AddRelativeForce(new Vector3(500.0f,500.0f,500.0f), ForceMode.Impulse);
-
+        GetComponent<Rigidbody>().AddExplosionForce(5000.0f, other.transform.position, 50.0f, 30.0f, ForceMode.Impulse);
+        Destroy(other);
 
         //Si el Jugador pierde todas las vidas  
         if (lifes == 0)
         {
-            Destroy(other);
+            gameObject.SetActive(false);
             Debug.Log("GAME OVER");
         }
     }

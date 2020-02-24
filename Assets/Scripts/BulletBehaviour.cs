@@ -23,14 +23,14 @@ public class BulletBehaviour : MonoBehaviour
             //Colisión con Torretas
             if (other.tag == "Turret")
             {
-                Destroy(other.gameObject);
+                other.gameObject.SetActive(false);
                 Debug.Log("Destruida la unidad " + other.name);
             } 
 
             //Colisión con el Jugador
             else if (other.tag == "Player")
             {
-                player.GetComponent<PlayerBehaviour>().hit(player);
+                other.GetComponent<PlayerBehaviour>().hit(gameObject);
             }
         }
     }
@@ -38,12 +38,16 @@ public class BulletBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-      
+        player = GameObject.Find("Player");
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
         GetComponent<Rigidbody>().AddRelativeForce((direction.normalized) * speed, ForceMode.VelocityChange);
+        if((transform.position - player.transform.position).sqrMagnitude > 180.0f)
+            {
+                Destroy(gameObject);
+            }
     }
 }

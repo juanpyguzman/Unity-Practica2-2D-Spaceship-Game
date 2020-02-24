@@ -128,15 +128,35 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 894687365}
     m_Modifications:
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 405301688}
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: shotDistance
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: shotFrequency
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5368806611175751349, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
       propertyPath: m_Name
       value: Turret_9
       objectReference: {fileID: 0}
+    - target: {fileID: 5368806611175751349, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -78.8
+      value: -73.600006
       objectReference: {fileID: 0}
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
@@ -146,7 +166,7 @@ PrefabInstance:
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 47.3
+      value: 33.7
       objectReference: {fileID: 0}
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
@@ -203,10 +223,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 894687365}
     m_Modifications:
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 405301688}
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: shotDistance
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: shotFrequency
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5368806611175751349, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
       propertyPath: m_Name
       value: Turret_11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5368806611175751349, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
@@ -284,15 +324,35 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 894687365}
     m_Modifications:
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 405301688}
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: shotDistance
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: shotFrequency
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5368806611175751349, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
       propertyPath: m_Name
       value: Turret_4
       objectReference: {fileID: 0}
+    - target: {fileID: 5368806611175751349, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.7
+      value: -22.3
       objectReference: {fileID: 0}
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
@@ -302,7 +362,7 @@ PrefabInstance:
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -39.2
+      value: -33.1
       objectReference: {fileID: 0}
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
@@ -538,15 +598,35 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 894687365}
     m_Modifications:
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 405301688}
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: shotDistance
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: shotFrequency
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5368806611175751349, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
       propertyPath: m_Name
       value: Turret_10
       objectReference: {fileID: 0}
+    - target: {fileID: 5368806611175751349, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -54.5
+      value: -50.6
       objectReference: {fileID: 0}
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
@@ -556,7 +636,7 @@ PrefabInstance:
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 26.5
+      value: 22.7
       objectReference: {fileID: 0}
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
@@ -626,7 +706,7 @@ PrefabInstance:
     - target: {fileID: 7207585090326000498, guid: 6d7cef65dd034c6449c59e70e091cd5f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -58.4
+      value: -53.2
       objectReference: {fileID: 0}
     - target: {fileID: 7207585090326000498, guid: 6d7cef65dd034c6449c59e70e091cd5f,
         type: 3}
@@ -636,7 +716,7 @@ PrefabInstance:
     - target: {fileID: 7207585090326000498, guid: 6d7cef65dd034c6449c59e70e091cd5f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 61
+      value: 47.4
       objectReference: {fileID: 0}
     - target: {fileID: 7207585090326000498, guid: 6d7cef65dd034c6449c59e70e091cd5f,
         type: 3}
@@ -998,15 +1078,35 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 894687365}
     m_Modifications:
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 405301688}
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: shotDistance
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: shotFrequency
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5368806611175751349, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
       propertyPath: m_Name
       value: Turret_2
       objectReference: {fileID: 0}
+    - target: {fileID: 5368806611175751349, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 58.9
+      value: 26.9
       objectReference: {fileID: 0}
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
@@ -1016,7 +1116,7 @@ PrefabInstance:
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -24.9
+      value: -18.8
       objectReference: {fileID: 0}
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
@@ -1199,10 +1299,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 894687365}
     m_Modifications:
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 405301688}
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: shotDistance
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: shotFrequency
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5368806611175751349, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
       propertyPath: m_Name
       value: Turret_7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5368806611175751349, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
@@ -1623,15 +1743,35 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 894687365}
     m_Modifications:
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 405301688}
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: shotDistance
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: shotFrequency
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5368806611175751349, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
       propertyPath: m_Name
       value: Turret_8
       objectReference: {fileID: 0}
+    - target: {fileID: 5368806611175751349, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -29.7
+      value: -24.5
       objectReference: {fileID: 0}
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
@@ -1641,7 +1781,7 @@ PrefabInstance:
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 47.6
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
@@ -1938,10 +2078,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 894687365}
     m_Modifications:
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 405301688}
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: shotDistance
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: shotFrequency
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5368806611175751349, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
       propertyPath: m_Name
       value: Turret_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5368806611175751349, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
@@ -2013,6 +2173,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 894687365}
     m_Modifications:
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 405301688}
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: shotDistance
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: shotFrequency
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5368806611175751349, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
       propertyPath: m_Name
@@ -2094,7 +2269,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4506417376366818, guid: a931918a76315224db551cf40b5ffe18, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 49.3
+      value: 17.3
       objectReference: {fileID: 0}
     - target: {fileID: 4506417376366818, guid: a931918a76315224db551cf40b5ffe18, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2102,7 +2277,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4506417376366818, guid: a931918a76315224db551cf40b5ffe18, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -55.2
+      value: -49.1
       objectReference: {fileID: 0}
     - target: {fileID: 4506417376366818, guid: a931918a76315224db551cf40b5ffe18, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2276,15 +2451,35 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 894687365}
     m_Modifications:
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 405301688}
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: shotDistance
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: shotFrequency
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5368806611175751349, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
       propertyPath: m_Name
       value: Turret_3
       objectReference: {fileID: 0}
+    - target: {fileID: 5368806611175751349, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 70.1
+      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
@@ -2294,7 +2489,7 @@ PrefabInstance:
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -57
+      value: -29.3
       objectReference: {fileID: 0}
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
@@ -2357,10 +2552,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 894687365}
     m_Modifications:
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 405301688}
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: shotDistance
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: shotFrequency
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5368806611175751349, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
       propertyPath: m_Name
       value: Turret_12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5368806611175751349, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
@@ -2445,7 +2660,7 @@ PrefabInstance:
     - target: {fileID: 7207585090326000498, guid: 6d7cef65dd034c6449c59e70e091cd5f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 65.9
+      value: 33.9
       objectReference: {fileID: 0}
     - target: {fileID: 7207585090326000498, guid: 6d7cef65dd034c6449c59e70e091cd5f,
         type: 3}
@@ -2455,7 +2670,7 @@ PrefabInstance:
     - target: {fileID: 7207585090326000498, guid: 6d7cef65dd034c6449c59e70e091cd5f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -38.9
+      value: -32.800003
       objectReference: {fileID: 0}
     - target: {fileID: 7207585090326000498, guid: 6d7cef65dd034c6449c59e70e091cd5f,
         type: 3}
@@ -2512,15 +2727,35 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 894687365}
     m_Modifications:
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 405301688}
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: shotDistance
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 3492297193421622138, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: shotFrequency
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5368806611175751349, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
       propertyPath: m_Name
       value: Turret_1
       objectReference: {fileID: 0}
+    - target: {fileID: 5368806611175751349, guid: 2a11738a9d0010a4594fca8e1b9be563,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 43.6
+      value: 11.599998
       objectReference: {fileID: 0}
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
@@ -2530,7 +2765,7 @@ PrefabInstance:
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -39.7
+      value: -33.6
       objectReference: {fileID: 0}
     - target: {fileID: 5373984599127755039, guid: 2a11738a9d0010a4594fca8e1b9be563,
         type: 3}

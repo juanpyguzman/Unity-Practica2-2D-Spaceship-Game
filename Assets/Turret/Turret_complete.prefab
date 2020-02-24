@@ -329,6 +329,7 @@ GameObject:
   - component: {fileID: 5373984599127755039}
   - component: {fileID: 5326869853891199821}
   - component: {fileID: 8033262941285336932}
+  - component: {fileID: 3492297193421622138}
   m_Layer: 0
   m_Name: Turret_complete
   m_TagString: Turret
@@ -380,6 +381,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &3492297193421622138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5368806611175751349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd679687dc6eea4458f255b6408a5d0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pylon: {fileID: 5368557284680308321}
+  target: {fileID: 8202078271014808534, guid: 9e15ab8079677a047ba6c4a953555c7b, type: 3}
+  BulletRed: {fileID: 1855875164342596982, guid: a54bd8464c2fcc348b163f31616b6241,
+    type: 3}
+  shotDistance: 100
+  shotFrequency: 3
 --- !u!1 &5369184491947103969
 GameObject:
   m_ObjectHideFlags: 0
