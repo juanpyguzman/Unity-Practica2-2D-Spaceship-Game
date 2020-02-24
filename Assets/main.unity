@@ -527,6 +527,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   acceleration: 5
   turnAcceleration: 2
+  lifes: 3
+  foundBases: 0
+  BulletYellow: {fileID: 2904897937428794996, guid: 7fdf52e7165430a4abce721d355b41a2,
+    type: 3}
 --- !u!1001 &438264802
 PrefabInstance:
   m_ObjectHideFlags: 0

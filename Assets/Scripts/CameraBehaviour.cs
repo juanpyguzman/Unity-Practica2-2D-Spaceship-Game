@@ -32,9 +32,6 @@ public class CameraBehaviour : MonoBehaviour
             transform.position = new Vector3(target.transform.position.x,
                                              target.transform.position.y + Height,
                                              target.transform.position.z);
-
-            Debug.Log(transform.position.y);
-
         }
     }
 }
