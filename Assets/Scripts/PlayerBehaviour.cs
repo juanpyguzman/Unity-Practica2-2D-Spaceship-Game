@@ -26,9 +26,12 @@ public class PlayerBehaviour : MonoBehaviour
     public void baseFounded()
     {
         foundBases++;
+        lifes = 3;
+        GameObject.Find("Canvas").GetComponent<CanvasBehaviour>().LifesCanvasUpdate(lifes);
         if (foundBases==4)
         {
             Debug.Log("¡¡Ganaste!!");
+            GameObject.Find("Canvas").GetComponent<CanvasBehaviour>().WinEvent();
         }
     }
 
@@ -36,6 +39,7 @@ public class PlayerBehaviour : MonoBehaviour
     public void hit(GameObject other)
     {
         lifes--;
+        GameObject.Find("Canvas").GetComponent<CanvasBehaviour>().LifesCanvasUpdate(lifes);
         Debug.Log("Player: Daño recibido");
         Debug.Log("Te quedan " + lifes + " vidas");
         GetComponent<Rigidbody>().AddExplosionForce(5000.0f, other.transform.position, 50.0f, 30.0f, ForceMode.Impulse);
@@ -46,6 +50,7 @@ public class PlayerBehaviour : MonoBehaviour
         {
             gameObject.SetActive(false);
             Debug.Log("GAME OVER");
+            GameObject.Find("Canvas").GetComponent<CanvasBehaviour>().GameOverEvent();
         }
     }
 

@@ -7,6 +7,7 @@ public class CameraBehaviour : MonoBehaviour
     public GameObject target = null;
     public float MinHeight = 40f;
     public float HeightFactor = 10.0f;
+    public float smoothFactor = 1f;
 
     private float Height;
     private Rigidbody shipRigidBody;
@@ -29,9 +30,11 @@ public class CameraBehaviour : MonoBehaviour
         {
             Height = MinHeight * (1 + shipRigidBody.velocity.magnitude / HeightFactor);
 
-            transform.position = new Vector3(target.transform.position.x,
+            Vector3 newPosition = new Vector3(target.transform.position.x,
                                              target.transform.position.y + Height,
                                              target.transform.position.z);
+
+            transform.position = Vector3.Lerp(transform.position, newPosition, Time.deltaTime * smoothFactor);
         }
     }
 }
